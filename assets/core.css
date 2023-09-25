@@ -59,6 +59,7 @@ h2 {
     justify-content: center;
     border-radius: 24px;
     padding: 8px;
+    width: min-content;
     transition: 0.2s;
 }
 .product-category:hover {
