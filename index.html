@@ -14,14 +14,17 @@
                 height: calc(100vh - 256px);
             "
         >
-            <div>
+            <div style="width: 100%; margin-top: 32px">
                 <div style="margin-bottom: 16px">Featured Reviews</div>
                 <div
                     style="
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        gap: 10vw;
+                        display: grid;
+                        grid-template-columns: repeat(
+                            auto-fit,
+                            minmax(200px, 1fr)
+                        );
+                        grid-gap: 1rem;
+                        width: 100%;
                     "
                 >
                     <a href="running-shoes.html" class="product-category">
