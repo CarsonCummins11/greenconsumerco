@@ -68,6 +68,7 @@ h2 {
 .product-image {
     border-radius: 16px;
     width: max(30vh, 200px);
+    display: block;
 }
 .link {
     transition: 0.3s;
