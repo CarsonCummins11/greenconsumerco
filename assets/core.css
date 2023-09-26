@@ -40,7 +40,7 @@ h1 {
     font-weight: 800;
     word-wrap: break-word;
     margin: 0px;
-    margin-bottom: 320px;
+    margin-bottom: 100vh;
 }
 h2 {
     font-size: 48px;
